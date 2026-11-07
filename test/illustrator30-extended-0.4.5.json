@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-07",
+  "acceptanceSource": "1109d1d",
+  "guardedSource": "bcc6d9c",
+  "hostMatchesStandalone": true,
+  "acceptedAiSha256": "b4b5d4bd0a4707b1e3104ff7502c4b85d4f2e21e4ffd1dbffa12bb8721b3bf15",
+  "renderChecks": "probes/check-extended-report.mjs passed against source, initial and reopened Illustrator exports",
+  "version": "30.0.0",
+  "passed": true,
+  "checks": [],
+  "stage": "complete",
+  "before": {
+    "decorated": true,
+    "textKinds": true,
+    "gradients": true,
+    "blendModes": 16,
+    "transparency": true,
+    "clipping": true,
+    "masks": [
+      "PathItem",
+      "PathItem"
+    ],
+    "multi": "PathItem",
+    "arrows": [
+      {
+        "kind": "Triangle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Circle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Square",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Diamond",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Bar",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "TriangleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "CircleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "SquareOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "DiamondOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      }
+    ],
+    "areaOptions": {
+      "columns": 2,
+      "rows": 2,
+      "baseline": "FirstBaselineType.BASELINECAPHEIGHT"
+    },
+    "extendedText": true,
+    "pathIntervals": true,
+    "ellipse": true,
+    "compoundClip": true,
+    "stackedAppearances": true,
+    "extendedMasks": [
+      "PathItem",
+      "PathItem"
+    ],
+    "layerTransparency": true,
+    "gray": true,
+    "gradientOpacity": true,
+    "gradientStrokes": true
+  },
+  "after": {
+    "decorated": true,
+    "textKinds": true,
+    "gradients": true,
+    "blendModes": 16,
+    "transparency": true,
+    "clipping": true,
+    "masks": [
+      "PathItem",
+      "PathItem"
+    ],
+    "multi": "PathItem",
+    "arrows": [
+      {
+        "kind": "Triangle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Circle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Square",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Diamond",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Bar",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "TriangleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "CircleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "SquareOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "DiamondOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      }
+    ],
+    "areaOptions": {
+      "columns": 2,
+      "rows": 2,
+      "baseline": "FirstBaselineType.BASELINECAPHEIGHT"
+    },
+    "extendedText": true,
+    "pathIntervals": true,
+    "ellipse": true,
+    "compoundClip": true,
+    "stackedAppearances": true,
+    "extendedMasks": [
+      "PathItem",
+      "PathItem"
+    ],
+    "layerTransparency": true,
+    "gray": true,
+    "gradientOpacity": true,
+    "gradientStrokes": true
+  },
+  "extraReference": {
+    "saved": true
+  }
+}

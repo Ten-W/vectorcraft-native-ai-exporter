@@ -1,0 +1,154 @@
+{
+  "scope": "VectorCraft 0.21.0 called the import-free WASM plug-in; Illustrator 30.0.0 verified the generated synthetic files.",
+  "wasmSha256": "f59421f7d1415193e5c39fd3052f789b06160a79a537e67c9665d680fe5e8e99",
+  "outputSha256": "0a4798f1126f23348ea2cc55477893a4dff78506fe3d6d5987a9be5a2dd67117",
+  "version": "30.0.0",
+  "passed": true,
+  "stage": "complete",
+  "reference": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  },
+  "before": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  },
+  "positionPassed": true,
+  "textEditPassed": true,
+  "after": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  }
+}

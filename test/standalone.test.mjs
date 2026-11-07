@@ -1,0 +1,31 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import zlib from 'node:zlib';
+import {parseAiStream,rasterToRgba} from 'ai-file';
+import {PNG} from 'pngjs';
+import {fixture} from '../probes/fixture.mjs';
+import {exportNative} from '../export-native.mjs';
+const wasm=path.resolve(process.env.NATIVE_AI_WASM||'VectorCraft-Native-AI.wasm');
+test('standalone WASM resolves compressed image blobs without an application process',{skip:!fs.existsSync(wasm)},async()=>{
+  fs.mkdirSync(path.resolve('work'),{recursive:true});
+  const work=fs.mkdtempSync(path.resolve('work/standalone-'));
+  const d=fixture(),pixels=Buffer.alloc(128*128*4);let seed=12345;for(let i=0;i<pixels.length;i++){seed=(Math.imul(seed,1664525)+1013904223)>>>0;pixels[i]=seed>>>24;}
+  const png=PNG.sync.write({width:128,height:128,data:pixels});assert.ok(png.length>8192);
+  const image=d.document.layers[0].kind.children[0].kind.children[0].kind.children[2];image.kind.width=128;image.kind.height=128;
+  d.images.sample={mime:'image/png',blob:[0,png.length]};
+  const bytes=Buffer.concat([Buffer.from(JSON.stringify(d)),Buffer.from('\n\0VCBLOBS\0'),png]);
+  const input=path.join(work,'source.vectorcraft'),output=path.join(work,'independent.ai');
+  fs.writeFileSync(input,zlib.gzipSync(bytes));
+  const report=await exportNative(input,output,{},wasm);
+  assert.equal(report.illustratorRequired,false);assert.equal(report.vectorcraftRequired,false);
+  const parsed=parseAiStream(fs.readFileSync(output));
+  assert.deepEqual(parsed.warnings,[]);assert.equal(parsed.text.stories[0].text,'中文尺寸\r');assert.equal(parsed.artboards.length,2);
+  const raster=parsed.layers[0].children[0].children[0].children.find(n=>n.type==='raster');
+  assert.deepEqual(Buffer.from(rasterToRgba(raster,parsed.source).rgba),pixels);
+  await assert.rejects(()=>exportNative(input,output,{},wasm),/overwrite/);
+  const bad=fixture();bad.document.layers[0].kind.children[0].kind.children[0].kind.children[0].kind.runs[0].style.font_family='Unknown';
+  fs.writeFileSync(input,JSON.stringify(bad));
+  const rejected=path.join(work,'rejected.ai');await assert.rejects(()=>exportNative(input,rejected,{},wasm),/无法自动识别字体/);assert.equal(fs.existsSync(rejected),false);
+});

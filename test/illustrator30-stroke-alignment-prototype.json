@@ -1,0 +1,174 @@
+{
+  "version": "30.0.0",
+  "passed": true,
+  "cases": [
+    {
+      "align": "Inside",
+      "stage": "complete",
+      "before": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "doubled": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "restored": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "moved": [
+          45,
+          -95,
+          165,
+          -175
+        ],
+        "expected": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "expectedDoubled": [
+          40,
+          -100,
+          160,
+          -180
+        ]
+      },
+      "after": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "doubled": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "restored": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "moved": [
+          45,
+          -95,
+          165,
+          -175
+        ],
+        "expected": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "expectedDoubled": [
+          40,
+          -100,
+          160,
+          -180
+        ]
+      }
+    },
+    {
+      "align": "Outside",
+      "stage": "complete",
+      "before": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "doubled": [
+          24,
+          -84,
+          176,
+          -196
+        ],
+        "restored": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "moved": [
+          37,
+          -87,
+          173,
+          -183
+        ],
+        "expected": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "expectedDoubled": [
+          24,
+          -84,
+          176,
+          -196
+        ]
+      },
+      "after": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "doubled": [
+          24,
+          -84,
+          176,
+          -196
+        ],
+        "restored": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "moved": [
+          37,
+          -87,
+          173,
+          -183
+        ],
+        "expected": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "expectedDoubled": [
+          24,
+          -84,
+          176,
+          -196
+        ]
+      }
+    }
+  ]
+}

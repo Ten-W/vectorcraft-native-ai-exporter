@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-07",
+  "vectorcraft": "0.21.0",
+  "wasmSha256": "d8ff353a172e58d56a8041cb6a061eed875f187a2703b967ac65cc373f70d7c3",
+  "sourceCommit": "40b3e80",
+  "hostEqualsStandalone": true,
+  "renderChecks": {
+    "passed": true,
+    "clipping": true,
+    "compoundHole": true,
+    "grayMask": true,
+    "invertedMask": true,
+    "multiplePaints": true,
+    "saveReopenPixels": true
+  },
+  "savedNative": {
+    "opacityMasks": 2,
+    "gradients": 3,
+    "stackStyles": 12
+  },
+  "version": "30.0.0",
+  "passed": true,
+  "checks": [],
+  "stage": "complete",
+  "before": {
+    "decorated": true,
+    "textKinds": true,
+    "gradients": true,
+    "blendModes": 16,
+    "transparency": true,
+    "clipping": true,
+    "masks": [
+      "PathItem",
+      "PathItem"
+    ],
+    "multi": "PathItem",
+    "arrows": [
+      {
+        "kind": "Triangle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Circle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Square",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Diamond",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Bar",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "TriangleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "CircleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "SquareOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "DiamondOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      }
+    ]
+  },
+  "after": {
+    "decorated": true,
+    "textKinds": true,
+    "gradients": true,
+    "blendModes": 16,
+    "transparency": true,
+    "clipping": true,
+    "masks": [
+      "PathItem",
+      "PathItem"
+    ],
+    "multi": "PathItem",
+    "arrows": [
+      {
+        "kind": "Triangle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Circle",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Square",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Diamond",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "Bar",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "TriangleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "CircleOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "SquareOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      },
+      {
+        "kind": "DiamondOpen",
+        "beforeHeight": 19.199951171875,
+        "afterHeight": 38.4000244140625
+      }
+    ]
+  }
+}

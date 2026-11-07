@@ -1,0 +1,39 @@
+{
+  "scope": "Synthetic fixture only. Export does not call Illustrator or read reference data.",
+  "nativeSha256": "22bd3262d06c80646ba612295cc8672ab8ef677e3d3c04322d2476c1c801c8af",
+  "version": "30.0.0",
+  "passed": true,
+  "stage": "complete",
+  "before": [
+    {
+      "name": "Circle native arrows",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    },
+    {
+      "name": "Triangle native arrow",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    }
+  ],
+  "after": [
+    {
+      "name": "Circle native arrows",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    },
+    {
+      "name": "Triangle native arrow",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    }
+  ]
+}

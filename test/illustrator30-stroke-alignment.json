@@ -1,0 +1,184 @@
+{
+  "version": "0.4.2-beta.1",
+  "illustrator": "30.0.0",
+  "passed": true,
+  "cases": [
+    {
+      "align": "Inside",
+      "stage": "complete",
+      "before": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "doubled": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "restored": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "moved": [
+          45,
+          -95,
+          165,
+          -175
+        ],
+        "expected": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "expectedDoubled": [
+          40,
+          -100,
+          160,
+          -180
+        ]
+      },
+      "after": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "doubled": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "restored": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "moved": [
+          45,
+          -95,
+          165,
+          -175
+        ],
+        "expected": [
+          40,
+          -100,
+          160,
+          -180
+        ],
+        "expectedDoubled": [
+          40,
+          -100,
+          160,
+          -180
+        ]
+      }
+    },
+    {
+      "align": "Outside",
+      "stage": "complete",
+      "before": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "doubled": [
+          24,
+          -84,
+          176,
+          -196
+        ],
+        "restored": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "moved": [
+          37,
+          -87,
+          173,
+          -183
+        ],
+        "expected": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "expectedDoubled": [
+          24,
+          -84,
+          176,
+          -196
+        ]
+      },
+      "after": {
+        "closed": true,
+        "width": 8,
+        "original": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "doubled": [
+          24,
+          -84,
+          176,
+          -196
+        ],
+        "restored": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "moved": [
+          37,
+          -87,
+          173,
+          -183
+        ],
+        "expected": [
+          32,
+          -92,
+          168,
+          -188
+        ],
+        "expectedDoubled": [
+          24,
+          -84,
+          176,
+          -196
+        ]
+      }
+    }
+  ],
+  "rectangleControlHandlesVerified": true,
+  "wasmSha256": "22549c9128284db6d687a4347887f7da3ae4553d3aff2e53f7da53bf6afa5082",
+  "userDesignSummary": {
+    "alignedPathsChecked": 11,
+    "editableTexts": 66,
+    "saveReopenPassed": true,
+    "renderedArtboardsVisuallyChecked": 4
+  },
+  "notes": "User artwork, object names, coordinates and images excluded. Single closed-path solid strokes only; no alignment with arrows or compound subpaths."
+}

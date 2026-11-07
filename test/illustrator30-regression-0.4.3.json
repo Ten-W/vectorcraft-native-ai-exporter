@@ -1,0 +1,289 @@
+{
+  "version": "30.0.0",
+  "passed": true,
+  "stage": "complete",
+  "before": {
+    "states": [
+      {
+        "name": "locked-path",
+        "locked": true,
+        "hidden": false
+      },
+      {
+        "name": "after-locked",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "hidden-path",
+        "locked": false,
+        "hidden": true
+      },
+      {
+        "name": "after-hidden",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "locked-group",
+        "locked": true,
+        "hidden": false
+      },
+      {
+        "name": "in-locked-group",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "after-locked-group",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "hidden-group",
+        "locked": false,
+        "hidden": true
+      },
+      {
+        "name": "in-hidden-group",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "after-hidden-group",
+        "locked": false,
+        "hidden": false
+      }
+    ],
+    "strokes": [
+      {
+        "name": "cap-Butt",
+        "width": 10,
+        "cap": "StrokeCap.BUTTENDCAP"
+      },
+      {
+        "name": "cap-Round",
+        "width": 10,
+        "cap": "StrokeCap.ROUNDENDCAP"
+      },
+      {
+        "name": "cap-Square",
+        "width": 10,
+        "cap": "StrokeCap.PROJECTINGENDCAP"
+      },
+      {
+        "name": "join-Miter",
+        "join": "StrokeJoin.MITERENDJOIN",
+        "miter": 8
+      },
+      {
+        "name": "join-Round",
+        "join": "StrokeJoin.ROUNDENDJOIN",
+        "miter": 8
+      },
+      {
+        "name": "join-Bevel",
+        "join": "StrokeJoin.BEVELENDJOIN",
+        "miter": 8
+      },
+      {
+        "name": "dash-offset",
+        "dash": [
+          12,
+          4
+        ],
+        "offset": 3
+      },
+      {
+        "name": "dashed-arrow",
+        "dash": [
+          12,
+          4
+        ],
+        "offset": 3
+      },
+      {
+        "name": "aligned-Inside",
+        "dash": [
+          8,
+          4
+        ],
+        "offset": 2
+      },
+      {
+        "name": "aligned-Outside",
+        "dash": [
+          8,
+          4
+        ],
+        "offset": 2
+      }
+    ],
+    "images": [
+      {
+        "name": "image-png",
+        "embedded": true,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "name": "image-jpg",
+        "embedded": true,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "name": "image-webp",
+        "embedded": true,
+        "width": 60,
+        "height": 60
+      }
+    ],
+    "textFrames": 2,
+    "textEdit": true
+  },
+  "after": {
+    "states": [
+      {
+        "name": "locked-path",
+        "locked": true,
+        "hidden": false
+      },
+      {
+        "name": "after-locked",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "hidden-path",
+        "locked": false,
+        "hidden": true
+      },
+      {
+        "name": "after-hidden",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "locked-group",
+        "locked": true,
+        "hidden": false
+      },
+      {
+        "name": "in-locked-group",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "after-locked-group",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "hidden-group",
+        "locked": false,
+        "hidden": true
+      },
+      {
+        "name": "in-hidden-group",
+        "locked": false,
+        "hidden": false
+      },
+      {
+        "name": "after-hidden-group",
+        "locked": false,
+        "hidden": false
+      }
+    ],
+    "strokes": [
+      {
+        "name": "cap-Butt",
+        "width": 10,
+        "cap": "StrokeCap.BUTTENDCAP"
+      },
+      {
+        "name": "cap-Round",
+        "width": 10,
+        "cap": "StrokeCap.ROUNDENDCAP"
+      },
+      {
+        "name": "cap-Square",
+        "width": 10,
+        "cap": "StrokeCap.PROJECTINGENDCAP"
+      },
+      {
+        "name": "join-Miter",
+        "join": "StrokeJoin.MITERENDJOIN",
+        "miter": 8
+      },
+      {
+        "name": "join-Round",
+        "join": "StrokeJoin.ROUNDENDJOIN",
+        "miter": 8
+      },
+      {
+        "name": "join-Bevel",
+        "join": "StrokeJoin.BEVELENDJOIN",
+        "miter": 8
+      },
+      {
+        "name": "dash-offset",
+        "dash": [
+          12,
+          4
+        ],
+        "offset": 3
+      },
+      {
+        "name": "dashed-arrow",
+        "dash": [
+          12,
+          4
+        ],
+        "offset": 3
+      },
+      {
+        "name": "aligned-Inside",
+        "dash": [
+          8,
+          4
+        ],
+        "offset": 2
+      },
+      {
+        "name": "aligned-Outside",
+        "dash": [
+          8,
+          4
+        ],
+        "offset": 2
+      }
+    ],
+    "images": [
+      {
+        "name": "image-png",
+        "embedded": true,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "name": "image-jpg",
+        "embedded": true,
+        "width": 60,
+        "height": 60
+      },
+      {
+        "name": "image-webp",
+        "embedded": true,
+        "width": 60,
+        "height": 60
+      }
+    ],
+    "textFrames": 2,
+    "textEdit": true
+  },
+  "wasmSha256": "1be1ec1cea38db933270f1cdba52d93fa0e3e8c561e270c12ed356c52bb5a604",
+  "nativeFileSha256": "4015bb76341713fa96aad2da4f11eb940b750caf451c7ddd6241ecb609403bb4",
+  "finalModuleOutputIdenticalToIllustratorValidatedFile": true,
+  "notes": "Synthetic fixture only. PNG alpha checked byte-for-byte by WASM tests. Rendering inspected; source alpha displayed against white for comparison. Small raster interpolation differs between applications; no claim of pixel-identical cross-app rendering."
+}

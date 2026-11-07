@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "pngBytes": 262548,
+  "width": 256,
+  "height": 256,
+  "rgbaBytes": 262144,
+  "rgbaExact": true,
+  "standaloneRequired": false,
+  "guiPassed": true,
+  "guiRgbaExact": true,
+  "date": "2026-11-07",
+  "upstreamCommit": "f6aa4309b4e11a6844e156120560b4beabf17fe9",
+  "ciRun": 42325346052,
+  "executables": {
+    "vectorcraft.exe": "a896337ba50437c3f57a84ff66d44d496cf8244fec8bd6b2a80b0e777d6e5533",
+    "vectorcraft-cli.exe": "ace8970f7267c4c82e7c5ed0392225f4da1224d659b4f1519312be4eb3bc5590"
+  },
+  "largerCase": {
+    "passed": true,
+    "pngBytes": 16784452,
+    "width": 2048,
+    "height": 2048,
+    "rgbaBytes": 16777216,
+    "rgbaExact": true,
+    "standaloneRequired": false,
+    "guiPassed": true,
+    "guiRgbaExact": true,
+    "wasmSha256": "1ad3c5354f28f955495d5dc3bdddeb209de562488d2ee924af2cf1b9eec1738f"
+  }
+}

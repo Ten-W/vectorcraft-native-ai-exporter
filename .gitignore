@@ -1,0 +1,21 @@
+# Source artwork and generated deliverables
+*.ai
+*.vectorcraft
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.wasm
+*.report.json
+
+# Conversion intermediates
+.vc-ai-*/
+.vc-ai-independent-*/
+work/
+node_modules/
+plugin/target/
+plugin/vendor/
+plugin/vendor-config.toml
+*.log
+Thumbs.db
+Desktop.ini

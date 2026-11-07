@@ -1,0 +1,40 @@
+{
+  "scope": "VectorCraft 0.21.0 called the import-free WASM plug-in; Illustrator 30.0.0 verified the generated synthetic files.",
+  "wasmSha256": "f59421f7d1415193e5c39fd3052f789b06160a79a537e67c9665d680fe5e8e99",
+  "outputSha256": "7b6536af8e36bd8b49e9eb21b1385832db21896e8f78b352313db984537d227d",
+  "version": "30.0.0",
+  "passed": true,
+  "stage": "complete",
+  "before": [
+    {
+      "name": "Circle arrows",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    },
+    {
+      "name": "",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    }
+  ],
+  "after": [
+    {
+      "name": "Circle arrows",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    },
+    {
+      "name": "",
+      "width": 3,
+      "height": 12,
+      "doubledHeight": 24,
+      "moved": true
+    }
+  ]
+}

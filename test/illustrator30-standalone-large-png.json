@@ -1,0 +1,154 @@
+{
+  "scope": "Standalone export-native.mjs using the packaged WASM; 56340-byte synthetic PNG; no Illustrator or VectorCraft process used by export.",
+  "wasmSha256": "d4acaf0fc769d4df3b20ead490e72abd8ea071fa0b73f063613086193f7d762c",
+  "pngRenderPixelsIdentical": true,
+  "version": "30.0.0",
+  "passed": true,
+  "stage": "complete",
+  "reference": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  },
+  "before": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  },
+  "positionPassed": true,
+  "textEditPassed": true,
+  "after": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  }
+}

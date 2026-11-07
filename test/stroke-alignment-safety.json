@@ -1,0 +1,21 @@
+{
+  "version": "0.4.1-beta.2",
+  "syntheticOnly": true,
+  "wasmSha256": "7168bb6e8ce4313c17a7933730ecad181d7000950d264d8e989c0feca01cec4d",
+  "checks": {
+    "nodeTestsPassed": 13,
+    "wasmInsideOutsideRejectedWithoutFileData": true,
+    "unknownFontChineseError": true,
+    "sourceSansWithoutMapping": true,
+    "releasedZipStandaloneSourceSansExport": true,
+    "installedWasmMatchesRelease": true,
+    "ciRun": 42077863206,
+    "ciConclusion": "success"
+  },
+  "unimplemented": [
+    "Native inside/outside stroke alignment",
+    "Host export input omits PNG bytes >= 8KiB",
+    "Automatic discovery of arbitrary system fonts inside sandbox"
+  ],
+  "note": "This is rejection safety and font/UI validation, not new Illustrator compatibility acceptance."
+}

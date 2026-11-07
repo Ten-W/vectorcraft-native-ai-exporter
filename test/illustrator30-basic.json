@@ -1,0 +1,153 @@
+{
+  "scope": "Synthetic fixture only; independent export, Illustrator used only for validation",
+  "nativeSha256": "fc8606695b2c94ce36625f50de8dd3dbbb93c653a9592fcd0cca64a39d93e01b",
+  "version": "30.0.0",
+  "passed": true,
+  "stage": "complete",
+  "reference": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  },
+  "before": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  },
+  "positionPassed": true,
+  "textEditPassed": true,
+  "after": {
+    "boards": 2,
+    "layers": [
+      "第二图层",
+      "主图层"
+    ],
+    "groups": [
+      "外组",
+      "内组"
+    ],
+    "paths": 1,
+    "texts": [
+      {
+        "contents": "Editable text",
+        "font": "ArialMT",
+        "size": 24,
+        "position": [
+          460,
+          -39.404296875
+        ],
+        "anchor": [
+          460,
+          -60
+        ]
+      },
+      {
+        "contents": "中文尺寸",
+        "font": "MicrosoftYaHei",
+        "size": 24,
+        "position": [
+          30,
+          -39.421875
+        ],
+        "anchor": [
+          30,
+          -60
+        ]
+      }
+    ],
+    "images": [
+      [
+        220,
+        -30,
+        270,
+        -80
+      ]
+    ]
+  }
+}

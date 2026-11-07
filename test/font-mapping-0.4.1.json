@@ -1,0 +1,19 @@
+{
+  "version": "0.4.1-beta.1",
+  "host": "VectorCraft 0.21.0",
+  "wasmSha256": "2d87eb1fc892397a8d2461b8acdcd36bd5697dea55bdb9023f458c79ea9e5cfd",
+  "syntheticOnly": true,
+  "fontMappings": 78,
+  "checks": {
+    "chineseManifestAcceptedByHost": true,
+    "sourceSans3RegularExportWithoutOverrides": true,
+    "sourceSans3BoldInterSimSunWasmChecks": true,
+    "unknownFontAndInvalidMappingChineseErrors": true,
+    "baselineNativeAiBytesIdenticalToBeta1": true,
+    "localNodeTestsPassed": 12,
+    "importFreeWasmTestsPassed": true,
+    "ciRun": 42076440005,
+    "ciPassed": true
+  },
+  "limits": "No new Illustrator-version validation; existing AI structure unchanged. Name catalog is not arbitrary system font discovery; recipient must have fonts installed."
+}
